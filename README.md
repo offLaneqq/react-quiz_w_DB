@@ -22,8 +22,7 @@ This file has a single function called shuffleArray. As the name implies, this f
 ## components/API.ts
 
 This API.ts file is designed to read, format, and pass data to the StartTrivia function of the App.tsx file.
-
-* Here I have some problem reading array from database. From the database, the array of values for incorrect answers was passed as a regular string, not as an array of strings. *
+ > _Here I have some problem reading array from database. From the database, the array of values for incorrect answers was passed as a regular string, not as an array of strings._
 
 Accordingly, the only function in the fetchQuizQuestion file returns a data object where the correct answer and the array of incorrect answers are shuffled and combined into a single array called answers.
 
@@ -41,6 +40,6 @@ As the file name suggests, this creates a simple server to read data from the da
 
 This file has been exported from MySQL, so you will be able to try to import it into your database.
 
-> * I used MySQL via xampp, which I had installed before, but you can install MySQL separately or try using xampp. *
+> _I used MySQL via xampp, which I had installed before, but you can install MySQL separately or try using xampp._
 
 ### Initially, this project was written under Trivia's API, but I became interested in rewriting it for my own correct and incorrect answers. Later, I found a way how to start a server for data transfer (simulate the transfer of an object as from an API)
