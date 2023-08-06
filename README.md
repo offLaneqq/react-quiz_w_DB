@@ -1,7 +1,7 @@
 # Naruto theme test using TypeScript, React and MySQL
 
-** The project is divided into two parts: FrontEnd and BackEnd.
-Accordingly, React + TS is located on the FrontEnd, and a simple server is located on the BackEnd for reading data from the database to transfer them in the form of an object for reading data from the FrontEnd. **
+**The project is divided into two parts: FrontEnd and BackEnd.
+Accordingly, React + TS is located on the FrontEnd, and a simple server is located on the BackEnd for reading data from the database to transfer them in the form of an object for reading data from the FrontEnd.**
 
 # FrontEnd
 
